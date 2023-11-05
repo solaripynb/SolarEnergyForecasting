@@ -77,7 +77,7 @@ The techniques include XGBoost, RandomForestRegressor, LSTM, Prophet, SARIMA, an
   </a>
 </p>
 <p align="center">
-  <em>Figure 1: The January versus June solar output comparison graph distinctly showcases the substantial seasonal influence on solar energy production.</em>
+  <em>Figure 1: The heatmap vividly contrasts the intensity of solar energy output between January and June, illustrating the stark seasonal differences in solar production.</em>
 </p>
 
 <p align="center">
@@ -86,7 +86,7 @@ The techniques include XGBoost, RandomForestRegressor, LSTM, Prophet, SARIMA, an
   </a>
 </p>
 <p align="center">
-  <em>Figure 2: The quarterly solar output variability bar chart reveals the fluctuations in solar production, highlighting the need for adaptable energy management strategies.</em>
+  <em>Figure 2: The quarterly solar output variability boxplot reveals the fluctuations in solar production, highlighting the need for adaptable energy management strategies.</em>
 </p>
 
 <p align="center">
@@ -95,7 +95,7 @@ The techniques include XGBoost, RandomForestRegressor, LSTM, Prophet, SARIMA, an
   </a>
 </p>
 <p align="center">
-  <em>Figure 3: The scatter plot with trendline demonstrates a pronounced positive correlation between sun height and solar energy output, pivotal for predictive modeling accuracy.</em>
+  <em>Figure 3: The scatter plot distinctly visualizes the correlation between sun height and solar output, a key factor in the effectiveness of solar energy prediction models.</em>
 </p>
 
 <p align="center">
