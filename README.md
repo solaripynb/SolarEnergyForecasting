@@ -175,10 +175,10 @@ Advanced Regression Techniques
 Model Evaluation
 
 1. Error Metrics: The models' performances are evaluated using several error metrics to capture different aspects of forecasting accuracy:
-       - MAE (Mean Absolute Error): Measures the average magnitude of errors in a set of predictions, without considering their direction.
-       - MSE (Mean Squared Error): Emphasizes larger errors by squaring the error values, which is particularly useful when large errors are undesirable.
-       - RMSE (Root Mean Squared Error): Offers a scale-sensitive error metric by taking the square root of MSE.
-       - R2 (Coefficient of Determination): Quantifies the proportion of the variance in the dependent variable that is predictable from the independent variables, providing a measure of how well unseen samples are likely to be predicted by the model.
+- MAE (Mean Absolute Error): Measures the average magnitude of errors in a set of predictions, without considering their direction.
+- MSE (Mean Squared Error): Emphasizes larger errors by squaring the error values, which is particularly useful when large errors are undesirable.
+- RMSE (Root Mean Squared Error): Offers a scale-sensitive error metric by taking the square root of MSE.
+- R2 (Coefficient of Determination): Quantifies the proportion of the variance in the dependent variable that is predictable from the independent variables, providing a measure of how well unseen samples are likely to be predicted by the model.
         
 ---
 
