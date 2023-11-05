@@ -55,9 +55,9 @@ The project's models demonstrate robust predictive capability, with the best-per
 
 Value Proposition for Solar Grid Operators:
 
-    Increased Grid Efficiency: Accurate forecasts enable more effective balancing of supply and demand, leading to a more stable and efficient grid.
-    Economic Optimization: Predictive insights aid in reducing operational costs by optimizing energy storage and distribution, and mitigating the need for auxiliary services.
-    Scalability: The modeling framework established in this project is designed to be adaptable and scalable to different geographies and solar farm sizes.
+- Increased Grid Efficiency: Accurate forecasts enable more effective balancing of supply and demand, leading to a more stable and efficient grid.
+- Economic Optimization: Predictive insights aid in reducing operational costs by optimizing energy storage and distribution, and mitigating the need for auxiliary services.
+- Scalability: The modeling framework established in this project is designed to be adaptable and scalable to different geographies and solar farm sizes.
 
 The project outcomes are poised to assist solar grid operators in planning and real-time decision-making, thereby contributing to the increased adoption of sustainable energy sources and supporting the transition towards a more resilient and environmentally friendly power infrastructure.
 
@@ -69,32 +69,32 @@ The project outcomes are poised to assist solar grid operators in planning and r
 
 The primary objective of the "Base Solar Energy Forecasting Model" is to create a reliable and accurate predictive model capable of forecasting solar energy output for the next 60 minutes and beyond. This model aims to:
 
-    Provide high-fidelity forecasts to enhance the operational efficiency of solar farms.
-    Aid grid operators in managing the variability inherent in solar energy generation.
-    Support the integration of solar energy into the broader energy mix, mitigating reliance on non-renewable energy sources.
+- Provide high-fidelity forecasts to enhance the operational efficiency of solar farms.
+- Aid grid operators in managing the variability inherent in solar energy generation.
+- Support the integration of solar energy into the broader energy mix, mitigating reliance on non-renewable energy sources.
 
 The project's goals are to:
 
-    Develop a model that surpasses industry-standard forecasting accuracy.
-    Create a scalable solution that can be adapted to various geographical locations and solar farm sizes.
-    Ensure the model's outputs are interpretable and actionable for solar grid operators.
+- Develop a model that surpasses industry-standard forecasting accuracy.
+- Create a scalable solution that can be adapted to various geographical locations and solar farm sizes.
+- Ensure the model's outputs are interpretable and actionable for solar grid operators.
     
 ### <a name="exploratory-data-analysis"></a>2.2 Target Audience and Potential Applications
 
 The primary audience for this project includes solar grid operators and energy management firms who require precise solar output predictions to optimize grid performance. Additionally, the model is relevant to:
 
-    Energy Traders: Forecasting production enables more informed trading strategies on energy commodities markets.
-    Policy Makers: Accurate predictions can inform policy decisions on energy storage and distribution infrastructure.
-    Research and Academic Institutions: The methodologies and findings can contribute to academic research in renewable energy forecasting.
+- Energy Traders: Forecasting production enables more informed trading strategies on energy commodities markets.
+- Policy Makers: Accurate predictions can inform policy decisions on energy storage and distribution infrastructure.
+- Research and Academic Institutions: The methodologies and findings can contribute to academic research in renewable energy forecasting.
 
 Potential Applications
 
 The forecasting model developed in this project has wide-ranging applications:
 
-    Real-Time Energy Balancing: Operators can use predictions to adjust supply levels, reducing the need for costly and carbon-intensive peaking power plants.
-    Energy Storage Management: Accurate forecasts help in making decisions about when to store excess energy and when to release it back into the grid.
-    Maintenance Scheduling: Predictive outputs can assist in planning maintenance during periods of low solar output to minimize the impact on energy production.
-    Investment Planning: Investors can use the data to assess the viability and potential returns of investing in solar infrastructure projects.
+- Real-Time Energy Balancing: Operators can use predictions to adjust supply levels, reducing the need for costly and carbon-intensive peaking power plants.
+- Energy Storage Management: Accurate forecasts help in making decisions about when to store excess energy and when to release it back into the grid.
+- Maintenance Scheduling: Predictive outputs can assist in planning maintenance during periods of low solar output to minimize the impact on energy production.
+- Investment Planning: Investors can use the data to assess the viability and potential returns of investing in solar infrastructure projects.
 
 
 ---
@@ -106,11 +106,11 @@ The forecasting model developed in this project has wide-ranging applications:
 The data for the "Base Solar Energy Forecasting Model" originates from the Photovoltaic Geographical Information System (PVGIS), an online platform provided by the European Commission. PVGIS is renowned for its comprehensive solar radiation and photovoltaic system energy production datasets covering most parts of the world. The application is freely accessible and offers data in various formats suitable for both web-based interaction and API services for programmatic access.
 Key Features of PVGIS Data:
 
-    Data Range: The datasets span from 2005 to 2020, with some databases extending to 2016.
-    Resolution: The spatial resolution of the data varies from 4 km to 25 km.
-    Type: The data includes satellite-based estimates and reanalysis products.
-    Formats: Data can be obtained in graphical, CSV, and PDF formats, and can include calculations considering horizon profiles.
-    Geographical Coverage: The data encompasses Europe, Africa, Asia, the Americas, and other parts of the world not covered by satellite-based databases.
+- Data Range: The datasets span from 2005 to 2020, with some databases extending to 2016.
+- Resolution: The spatial resolution of the data varies from 4 km to 25 km.
+- Type: The data includes satellite-based estimates and reanalysis products.
+- Formats: Data can be obtained in graphical, CSV, and PDF formats, and can include calculations considering horizon profiles.
+- Geographical Coverage: The data encompasses Europe, Africa, Asia, the Americas, and other parts of the world not covered by satellite-based databases.
 
 ### <a name="key-findings-and-implications"></a>3.2 Key Features and Target Outcomes
 
@@ -118,22 +118,22 @@ Key Features
 
 The following key features are extracted from the PVGIS databases to be used in the forecasting model:
 
-    Hourly Solar Radiation: Satellite images and reanalysis data provide hourly estimates of solar irradiance.
-    PV System Performance: Historical performance data of PV systems considering various technological and physical parameters.
-    Horizon Profile Information: Data reflecting the impact of local topography on solar irradiance.
-    Spectral Effects: Adjustments in the data accounting for the influence of the solar spectrum on different types of PV technologies.
-    Geographical Coordinates: Latitude and longitude to provide location-specific predictions.
-    PV System Specifications: Details such as installed peak power, system losses, and module orientation.
+- Hourly Solar Radiation: Satellite images and reanalysis data provide hourly estimates of solar irradiance.
+- PV System Performance: Historical performance data of PV systems considering various technological and physical parameters.
+- Horizon Profile Information: Data reflecting the impact of local topography on solar irradiance.
+- Spectral Effects: Adjustments in the data accounting for the influence of the solar spectrum on different types of PV technologies.
+- Geographical Coordinates: Latitude and longitude to provide location-specific predictions.
+- PV System Specifications: Details such as installed peak power, system losses, and module orientation.
 
 Target Outcomes
 
 The target outcomes of utilizing PVGIS data in predictive modeling are:
 
-    Energy Production Forecast: The primary outcome is an accurate forecast of energy production from PV systems.
-    Operational Efficiency: Insights derived from the data will facilitate operational efficiencies for solar farms and grid operators.
-    System Performance Evaluation: Understanding the historical performance to evaluate and optimize current PV system setups.
-    Enhanced Trading Strategies: Data-driven insights can aid energy traders in making more informed decisions.
-    Policy Making Support: Accurate energy production forecasts can inform infrastructure and energy policy decisions.
+- Energy Production Forecast: The primary outcome is an accurate forecast of energy production from PV systems.
+- Operational Efficiency: Insights derived from the data will facilitate operational efficiencies for solar farms and grid operators.
+- System Performance Evaluation: Understanding the historical performance to evaluate and optimize current PV system setups.
+- Enhanced Trading Strategies: Data-driven insights can aid energy traders in making more informed decisions.
+- Policy Making Support: Accurate energy production forecasts can inform infrastructure and energy policy decisions.
    
 ---
 
@@ -147,38 +147,38 @@ The overarching approach to modeling in this project is a hybrid methodology tha
 
 Data Preprocessing
 
-    Train-Validation-Test Split: The dataset is partitioned into three subsets:
-        Training set for model fitting.
-        Validation set for hyperparameter tuning and model selection.
-        Test set for the final evaluation of model performance.
+1. Train-Validation-Test Split: The dataset is partitioned into three subsets:
+   - Training set for model fitting.
+   - Validation set for hyperparameter tuning and model selection.
+   - Test set for the final evaluation of model performance.
 
 Machine Learning Models
 
-    XGBoost: Utilized for its gradient boosting framework that is highly effective in handling non-linear relationships and interactions within the data.
-    RandomForestRegressor: Employed for its ensemble learning capability that builds multiple decision trees and merges them to obtain a more accurate and stable prediction.
+1. XGBoost: Utilized for its gradient boosting framework that is highly effective in handling non-linear relationships and interactions within the data.
+2. RandomForestRegressor: Employed for its ensemble learning capability that builds multiple decision trees and merges them to obtain a more accurate and stable prediction.
 
 Deep Learning Models
 
-    LSTM (Univariate Approach): This model processes sequences of data one feature at a time, making it suited for time-series forecasting where past values are used to predict future values.
-    LSTM (Multivariate Approach): Extends the univariate LSTM model to include multiple features at each time step, capturing complex relationships between different predictors and solar energy output.
+1. LSTM (Univariate Approach): This model processes sequences of data one feature at a time, making it suited for time-series forecasting where past values are used to predict future values.
+2. LSTM (Multivariate Approach): Extends the univariate LSTM model to include multiple features at each time step, capturing complex relationships between different predictors and solar energy output.
 
 Time Series Models
 
-    Prophet (Univariate Approach): A decomposable time-series model designed for forecasting with daily observations that may have strong seasonal patterns.
-    Prophet (Multivariate Approach): An extension of the univariate Prophet model incorporating additional regressors to capture the influence of exogenous variables.
-    SARIMA & SARIMAX: Seasonal Autoregressive Integrated Moving Average models are used for univariate time series forecasting, with SARIMAX incorporating exogenous variables.
+1. Prophet (Univariate Approach): A decomposable time-series model designed for forecasting with daily observations that may have strong seasonal patterns.
+2. Prophet (Multivariate Approach): An extension of the univariate Prophet model incorporating additional regressors to capture the influence of exogenous variables.
+3. SARIMA & SARIMAX: Seasonal Autoregressive Integrated Moving Average models are used for univariate time series forecasting, with SARIMAX incorporating exogenous variables.
 
 Advanced Regression Techniques
 
-    Quantile Regression: This approach is used to predict conditional quantiles of the response variable, which is particularly useful for risk assessment in energy production where upper or lower quantiles are of interest.
+1. Quantile Regression: This approach is used to predict conditional quantiles of the response variable, which is particularly useful for risk assessment in energy production where upper or lower quantiles are of interest.
 
 Model Evaluation
 
-    Error Metrics: The models' performances are evaluated using several error metrics to capture different aspects of forecasting accuracy:
-        MAE (Mean Absolute Error): Measures the average magnitude of errors in a set of predictions, without considering their direction.
-        MSE (Mean Squared Error): Emphasizes larger errors by squaring the error values, which is particularly useful when large errors are undesirable.
-        RMSE (Root Mean Squared Error): Offers a scale-sensitive error metric by taking the square root of MSE.
-        R2 (Coefficient of Determination): Quantifies the proportion of the variance in the dependent variable that is predictable from the independent variables, providing a measure of how well unseen samples are likely to be predicted by the model.
+1. Error Metrics: The models' performances are evaluated using several error metrics to capture different aspects of forecasting accuracy:
+       - MAE (Mean Absolute Error): Measures the average magnitude of errors in a set of predictions, without considering their direction.
+       - MSE (Mean Squared Error): Emphasizes larger errors by squaring the error values, which is particularly useful when large errors are undesirable.
+       - RMSE (Root Mean Squared Error): Offers a scale-sensitive error metric by taking the square root of MSE.
+       - R2 (Coefficient of Determination): Quantifies the proportion of the variance in the dependent variable that is predictable from the independent variables, providing a measure of how well unseen samples are likely to be predicted by the model.
         
 ---
 
@@ -188,20 +188,20 @@ Model Evaluation
 
 The performance metrics of the models on the validation set suggest a clear demarcation in terms of effectiveness for the solar energy forecasting task. Here are the summarized results:
 
-    XGBoost and Random Forest exhibited excellent performance with R^2 values above 0.97, indicating that they were able to explain over 97% of the variance in the data.
-    LSTM Multivariate approach stands out amongst deep learning models with an R^2 of 0.9172, indicating a strong predictive ability when multiple features are considered.
-    Prophet (Univariate) showed moderate forecasting capability, while its multivariate counterpart performed poorly, suggesting overfitting or inappropriate feature selection.
-    Quantile Regression delivered moderate performance with an acceptable MAE, indicating its potential utility in certain predictive scenarios where average predictions are more critical than capturing the full distribution.
-    SARIMA exhibited low predictive power in this context, as indicated by an R^2 of 0.0731, which suggests that it captures very little of the variance in the dataset.
+- XGBoost and Random Forest exhibited excellent performance with R^2 values above 0.97, indicating that they were able to explain over 97% of the variance in the data.
+- LSTM Multivariate approach stands out amongst deep learning models with an R^2 of 0.9172, indicating a strong predictive ability when multiple features are considered.
+- Prophet (Univariate) showed moderate forecasting capability, while its multivariate counterpart performed poorly, suggesting overfitting or inappropriate feature selection.
+- Quantile Regression delivered moderate performance with an acceptable MAE, indicating its potential utility in certain predictive scenarios where average predictions are more critical than capturing the full distribution.
+- SARIMA exhibited low predictive power in this context, as indicated by an R^2 of 0.0731, which suggests that it captures very little of the variance in the dataset.
 
 ### <a name="contact-for-further-information"></a>5.2 Comparative Insights
 
 A comparative analysis reveals the following insights:
 
-    Machine Learning Models (XGBoost and Random Forest) are leading in terms of performance metrics. They are not only accurate but also provide insights into feature importance, which can be invaluable for understanding the driving factors behind solar energy generation.
-    Deep Learning Models (LSTM) have shown that they can be powerful, especially when multiple features affect the output. However, they require careful tuning and are computationally expensive.
-    Time Series Models (Prophet and SARIMA) have shown mixed results. While Prophet handles seasonality and trends well, it may not be as effective in this dataset, particularly in the multivariate case. SARIMA's traditional approach might be too simplistic for the complex patterns present in solar energy data.
-    Advanced Regression Techniques like Quantile Regression offer a different perspective by focusing on the median of the forecast distribution, which can be beneficial in understanding the range of possible outcomes, particularly in risk assessment.
+- Machine Learning Models (XGBoost and Random Forest) are leading in terms of performance metrics. They are not only accurate but also provide insights into feature importance, which can be invaluable for understanding the driving factors behind solar energy generation.
+- Deep Learning Models (LSTM) have shown that they can be powerful, especially when multiple features affect the output. However, they require careful tuning and are computationally expensive.
+- Time Series Models (Prophet and SARIMA) have shown mixed results. While Prophet handles seasonality and trends well, it may not be as effective in this dataset, particularly in the multivariate case. SARIMA's traditional approach might be too simplistic for the complex patterns present in solar energy data.
+- Advanced Regression Techniques like Quantile Regression offer a different perspective by focusing on the median of the forecast distribution, which can be beneficial in understanding the range of possible outcomes, particularly in risk assessment.
 
 The next step would involve validating these models on a test set, which has not been exposed to the model during the training phase. This will provide a more accurate assessment of how the models will perform on unseen data, thus ensuring the reliability of the predictive performance.
 ---
@@ -212,17 +212,12 @@ The next step would involve validating these models on a test set, which has not
 
 Each model brought unique features to the forecasting task, some of which are highlighted below:
 
-    XGBoost: This model's strength lies in its ability to handle a variety of data types, automatically detect non-linear relationships, and its robustness to outliers and overfitting due to its ensemble nature. Feature importance scores from XGBoost also provide valuable insights into which predictors are most influential for solar energy output forecasting.
-
-    Random Forest Regressor: Similar to XGBoost in handling non-linearities and robustness, but with easier interpretability due to the simplicity of decision trees. It also provides a measure of feature importance and can capture complex interactions between variables.
-
-    LSTM Models: The Univariate LSTM model, though not as accurate as the Multivariate, allowed us to capture time-dependent patterns. The Multivariate LSTM was particularly notable for incorporating multiple time-dependent features, which increased its predictive accuracy significantly.
-
-    Prophet: The model's ability to incorporate seasonality and holiday effects explicitly makes it a strong candidate for time series with known recurrent events. However, its performance varied significantly between univariate and multivariate approaches in this case.
-
-    Quantile Regression: This technique's capacity to predict conditional quantiles provides a comprehensive view of possible outcomes, which is particularly useful for risk management and scenario analysis in solar energy forecasting.
-
-    SARIMA: Despite its lower performance, SARIMA's interpretability and the direct consideration of seasonality, trend, and noise components make it a staple in time series analysis.
+- XGBoost: This model's strength lies in its ability to handle a variety of data types, automatically detect non-linear relationships, and its robustness to outliers and overfitting due to its ensemble nature. Feature importance scores from XGBoost also provide valuable insights into which predictors are most influential for solar energy output forecasting.
+- Random Forest Regressor: Similar to XGBoost in handling non-linearities and robustness, but with easier interpretability due to the simplicity of decision trees. It also provides a measure of feature importance and can capture complex interactions between variables.
+- LSTM Models: The Univariate LSTM model, though not as accurate as the Multivariate, allowed us to capture time-dependent patterns. The Multivariate LSTM was particularly notable for incorporating multiple time-dependent features, which increased its predictive accuracy significantly.
+- Prophet: The model's ability to incorporate seasonality and holiday effects explicitly makes it a strong candidate for time series with known recurrent events. However, its performance varied significantly between univariate and multivariate approaches in this case.
+- Quantile Regression: This technique's capacity to predict conditional quantiles provides a comprehensive view of possible outcomes, which is particularly useful for risk management and scenario analysis in solar energy forecasting.
+- SARIMA: Despite its lower performance, SARIMA's interpretability and the direct consideration of seasonality, trend, and noise components make it a staple in time series analysis.
 
 ---
 
@@ -232,48 +227,37 @@ Each model brought unique features to the forecasting task, some of which are hi
 
 Accurate solar energy forecasting models like XGBoost and Random Forest have substantial implications for grid management:
 
-    Demand and Supply Balancing: With precise forecasts, grid operators can better manage the balance between demand and supply, reducing the reliance on less sustainable and more expensive peaking power plants.
-
-    Energy Storage: Insights from models can inform when to store energy, optimizing the use of batteries or other storage technologies.
-
-    Maintenance Scheduling: Predictive models enable the scheduling of maintenance during periods of low renewable output, ensuring higher availability during peak production.
+- Demand and Supply Balancing: With precise forecasts, grid operators can better manage the balance between demand and supply, reducing the reliance on less sustainable and more expensive peaking power plants.
+- Energy Storage: Insights from models can inform when to store energy, optimizing the use of batteries or other storage technologies.
+- Maintenance Scheduling: Predictive models enable the scheduling of maintenance during periods of low renewable output, ensuring higher availability during peak production.
 
 ### <a name="acknowledgments"></a>6.2 Relevance to Policy and Investment
 
 The predictive models' results can inform policy decisions and investments:
 
-    Renewable Energy Incentives: High forecast accuracy might encourage policies that support further investment in solar infrastructure due to the reliability of the energy source.
-
-    Infrastructure Planning: Policymakers and investors can use forecast data to plan the development of new energy infrastructure, including the expansion of the grid to accommodate renewable sources.
-
-    Research and Development: The success of advanced models like Multivariate LSTM may lead to increased funding for research into AI and machine learning applications in renewable energy.
+- Renewable Energy Incentives: High forecast accuracy might encourage policies that support further investment in solar infrastructure due to the reliability of the energy source.
+- Infrastructure Planning: Policymakers and investors can use forecast data to plan the development of new energy infrastructure, including the expansion of the grid to accommodate renewable sources.
+- Research and Development: The success of advanced models like Multivariate LSTM may lead to increased funding for research into AI and machine learning applications in renewable energy.
 
 
 ### <a name="acknowledgments"></a>6.3 Limitations
 
 While the models show promise, there are limitations to consider:
 
-    Data Dependency: The models are as good as the data they are trained on. Inaccuracies or biases in the data will lead to poor forecasts.
-
-    Generalizability: The models may perform well on the current dataset but might need retraining or adjustment when applied to different geographical locations or temporal scales.
-
-    Model Complexity: Complex models like LSTMs require substantial computational resources and expertise, which might not be available to all grid operators or in all regions.
-
-    Change in Input Patterns: All models are based on historical data, and their accuracy may decrease if future patterns of solar irradiance due to climate change deviate significantly from past patterns.
+- Data Dependency: The models are as good as the data they are trained on. Inaccuracies or biases in the data will lead to poor forecasts.
+- Generalizability: The models may perform well on the current dataset but might need retraining or adjustment when applied to different geographical locations or temporal scales.
+- Model Complexity: Complex models like LSTMs require substantial computational resources and expertise, which might not be available to all grid operators or in all regions.
+- Change in Input Patterns: All models are based on historical data, and their accuracy may decrease if future patterns of solar irradiance due to climate change deviate significantly from past patterns.
 
 ### <a name="acknowledgments"></a>6.4 Recommendations
 
 Given these impacts and limitations, the following recommendations are made:
 
-    Hybrid Modeling: Consider using a combination of models to capitalize on their individual strengths. For example, ensemble machine learning models can be used for short-term predictions, while LSTMs can capture complex patterns for longer-term forecasts.
-
-    Continuous Monitoring: Regularly update and retrain models with new data to maintain accuracy over time.
-
-    Invest in Computing Resources: For more complex models to be viable, investing in computing infrastructure is essential.
-
-    Policy Integration: Integrate predictive models with policy-making tools to ensure renewable energy targets are realistic and based on accurate forecasts.
-
-    Education and Training: Invest in education and training for grid managers and policymakers on the use of AI and machine learning in energy forecasting to maximize the benefits of these technologies.
+- Hybrid Modeling: Consider using a combination of models to capitalize on their individual strengths. For example, ensemble machine learning models can be used for short-term predictions, while LSTMs can capture complex patterns for longer-term forecasts.
+- Continuous Monitoring: Regularly update and retrain models with new data to maintain accuracy over time.
+- Invest in Computing Resources: For more complex models to be viable, investing in computing infrastructure is essential.
+- Policy Integration: Integrate predictive models with policy-making tools to ensure renewable energy targets are realistic and based on accurate forecasts.
+- Education and Training: Invest in education and training for grid managers and policymakers on the use of AI and machine learning in energy forecasting to maximize the benefits of these technologies.
 
 
 ---
@@ -285,58 +269,57 @@ Given these impacts and limitations, the following recommendations are made:
 Improvement of the current forecasting models can be approached through several strategies:
 Data Enrichment
 
-    Increasing Data Granularity: Incorporate higher-resolution data to capture more detailed patterns.
-    Expanding Feature Set: Include additional relevant features such as atmospheric conditions, solar panel tilt angles, and albedo effects.
-    Historical Data: Extend the historical range of data to include more seasonal and cyclical patterns.
+- Increasing Data Granularity: Incorporate higher-resolution data to capture more detailed patterns.
+- Expanding Feature Set: Include additional relevant features such as atmospheric conditions, solar panel tilt angles, and albedo effects.
+- Historical Data: Extend the historical range of data to include more seasonal and cyclical patterns.
 
 Model Enhancement
 
-    Hyperparameter Tuning: Perform extensive hyperparameter optimization for machine learning models, utilizing techniques like grid search or Bayesian optimization.
-    Deep Learning Architectures: Explore more advanced neural network architectures such as Convolutional LSTM networks, which can better capture spatial-temporal relationships in the data.
-    Model Stacking: Implement a stacked generalization ensemble method where the outputs of individual models become inputs to a final meta-learner model.
+- Hyperparameter Tuning: Perform extensive hyperparameter optimization for machine learning models, utilizing techniques like grid search or Bayesian optimization.
+- Deep Learning Architectures: Explore more advanced neural network architectures such as Convolutional LSTM networks, which can better capture spatial-temporal relationships in the data.
+- Model Stacking: Implement a stacked generalization ensemble method where the outputs of individual models become inputs to a final meta-learner model.
 
 Validation Techniques
 
-    Cross-Validation: Use time-series cross-validation techniques to better evaluate model robustness over different time periods.
-    Out-of-Time Validation: Validate models on data from time periods not included in the training set to assess generalizability.
+- Cross-Validation: Use time-series cross-validation techniques to better evaluate model robustness over different time periods.
+- Out-of-Time Validation: Validate models on data from time periods not included in the training set to assess generalizability.
 
 Computational Improvements
 
-    Parallel Computing: Leverage parallel computing resources to reduce training times and enable more complex model exploration.
-    Efficient Algorithms: Adopt more computationally efficient algorithms for grid search and model training to speed up experimentation.
-
+- Parallel Computing: Leverage parallel computing resources to reduce training times and enable more complex model exploration.
+- Efficient Algorithms: Adopt more computationally efficient algorithms for grid search and model training to speed up experimentation.
 
 ### <a name="acknowledgments"></a>8.2 Potential Future Directions
 
 Future research and development can take several potential directions:
 Integration with Other Energy Sources
 
-    Multi-Source Forecasting: Develop models that forecast for a combination of renewable energy sources, such as wind and solar, to optimize overall grid performance.
+- Multi-Source Forecasting: Develop models that forecast for a combination of renewable energy sources, such as wind and solar, to optimize overall grid performance.
 
 Real-Time Adaptation
 
-    Online Learning: Implement online learning algorithms that can update models in real-time as new data comes in.
-    Adaptive Thresholds: Create models with adaptive thresholds for error metrics that adjust to different operational demands and constraints.
+- Online Learning: Implement online learning algorithms that can update models in real-time as new data comes in.
+- Adaptive Thresholds: Create models with adaptive thresholds for error metrics that adjust to different operational demands and constraints.
 
 Climate Change Adaptation
 
-    Climate Projections: Incorporate climate projection models to adjust solar forecasts considering long-term climate change scenarios.
-    Resilience Modeling: Develop models to simulate and predict solar energy output under extreme weather conditions for better grid resilience planning.
+- Climate Projections: Incorporate climate projection models to adjust solar forecasts considering long-term climate change scenarios.
+- Resilience Modeling: Develop models to simulate and predict solar energy output under extreme weather conditions for better grid resilience planning.
 
 Policy and Economic Modeling
 
-    Incorporate Economic Models: Integrate economic forecasting models to predict energy prices and demand in conjunction with solar output.
-    Policy Impact Analysis: Model the potential impacts of different policy decisions on solar energy production and grid integration.
+- Incorporate Economic Models: Integrate economic forecasting models to predict energy prices and demand in conjunction with solar output.
+- Policy Impact Analysis: Model the potential impacts of different policy decisions on solar energy production and grid integration.
 
 Advanced Machine Learning Techniques
 
-    Reinforcement Learning: Explore reinforcement learning for dynamic control of energy storage systems based on forecasts.
-    Generative Models: Use generative models to simulate possible future scenarios for training and enhancing predictive models.
+- Reinforcement Learning: Explore reinforcement learning for dynamic control of energy storage systems based on forecasts.
+- Generative Models: Use generative models to simulate possible future scenarios for training and enhancing predictive models.
 
 Open-Source Development
 
-    Collaborative Platforms: Encourage the development of open-source forecasting tools to allow collaboration and improvement from the global community.
-    Benchmarking Datasets: Establish benchmarking datasets and challenges to push the advancement of forecasting methods.
+- Collaborative Platforms: Encourage the development of open-source forecasting tools to allow collaboration and improvement from the global community.
+- Benchmarking Datasets: Establish benchmarking datasets and challenges to push the advancement of forecasting methods.
 
 ---
 
