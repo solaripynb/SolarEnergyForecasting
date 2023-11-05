@@ -8,16 +8,14 @@ This README provides an executive summary of the Solar Radiance Forecaster proje
 
 ## Table of Contents
 1. [Executive Summary](#introduction)
-2. [Project Scope](#methodology)
-3. [Data Synopsis](#results-and-insights)
-4. [Methodology Overview](#recommendations-and-future-work)
-5. [Results Snapshot](#acknowledgments-and-contact)
-6. [Modeling Highlights](#license)
-7. [Impact and Recommendations](#license)
-8. [Further Development](#license)
-9. [Acknowledgments and Contact](#acknowledgments-and-contact)
-10. [License](#license)
-
+2. [Project Scope](#scope)
+3. [Data Synopsis](#data)
+4. [Methodology Overview](#methodology)
+5. [Results Snapshot](#results)
+6. [Modeling Highlights](#modeling)
+7. [Further Development](#development)
+8. [Acknowledgments and Contact](#acknowledgments-and-contact)
+9. [License](#license)
 
 ---
 
@@ -33,7 +31,7 @@ The project's models demonstrate robust predictive capability, with ensemble met
 
 ---
 
-## <a name="methodology"></a>2. Project Scope
+## <a name="scope"></a>2. Project Scope
 
 ### 2.1 Objective & Goals
 
@@ -45,7 +43,7 @@ The model serves solar grid operators, energy management firms, energy traders, 
 
 ---
 
-## <a name="results-and-insights"></a>3. Data Synopsis
+## <a name="data"></a>3. Data Synopsis
 
 ### 3.1 Source and Nature of Data
 
@@ -57,7 +55,7 @@ The model utilizes key features such as hourly solar radiation and PV system per
    
 ---
 
-## <a name="recommendations-and-future-work"></a>4. Methodology Overview
+## <a name="methodology"></a>4. Methodology Overview
 
 ### 4.1 Approach to Modeling
 
@@ -69,7 +67,7 @@ The techniques include XGBoost, RandomForestRegressor, LSTM, Prophet, SARIMA, an
 
 ---
 
-## <a name="acknowledgments-and-contact"></a>5. Results Snapshot
+## <a name="results"></a>5. Results Snapshot
 
 ### 5.1 High-Level Model Performance
 
@@ -81,7 +79,7 @@ Machine learning models performed best, while time series models showed mixed re
 
 ---
 
-## <a name="license"></a>6. Modeling Highlights
+## <a name="modeling"></a>6. Modeling Highlights
 
 ### 6.1 Notable Model Features
 
@@ -97,7 +95,7 @@ The limitations involve data dependency, generalizability, model complexity, and
 
 ---
 
-## <a name="license"></a>8. Further Development
+## <a name="development"></a>8. Further Development
 
 ### 8.1 Strategies for Improvement
 
@@ -111,13 +109,12 @@ Future directions involve integrating with other energy sources, real-time adapt
 
 ## <a name="acknowledgments-and-contact"></a>5. Acknowledgments and Contact
 
-### <a name="acknowledgments"></a>5.1 Acknowledgments
+### 5.1 Acknowledgments
 
 I would like to extend my deepest gratitude to everyone who contributed to the success of this project. Your expertise, feedback, and encouragement have been invaluable.
-
 Special thanks go to the team of specialized scientists at PVGIS-SARAH2, funded by the European Union from 2001 to 2023. Your groundbreaking work in the field of solar radiation has laid the foundation for this project, and your collaboration has been a cornerstone in achieving the level of accuracy and reliability that this model provides.
 
-### <a name="contact-for-further-information"></a>5.2 Contact for Further Information
+### 5.2 Contact for Further Information
 
 I am continually seeking to expand the horizons of this project and explore new partnerships that push the envelope of what's possible in solar energy forecasting. If you are interested in collaborating, contributing, or simply discussing the potential of this model and others in the energy sector, please feel free to reach out. Together, we can forge a path towards more sustainable and efficient energy solutions.
 
@@ -125,42 +122,8 @@ For inquiries, collaborations, or further discussions, please contact:
 
 [LinkedIn](https://www.linkedin.com/in/sergiodavidescobar)
 
-Your interest and expertise could play a crucial role in shaping the next phase of this project, leading to innovative solutions that benefit the global community.
-
----
-
-# Contributions
-
-## Acknowledgements
-The success of this project was made possible by the collaborative efforts of several individuals and organizations. We extend our gratitude to the following:
-
-- **Data Providers**: Special thanks to the meteorological and energy data institutions for granting access to the high-quality datasets that have been crucial for our models.
-- **Research Community**: We acknowledge the contributions of the broader research community, whose published works have informed the methodologies and techniques employed in our models.
-- **Technical Team**: We appreciate the dedication of the data engineers and IT support staff who maintained the computational infrastructure necessary for model development and testing.
-- **Peer Reviewers**: Our sincere appreciation goes to the peers who reviewed our models and provided valuable feedback for improvement.
-
-## How to Contribute
-Contributions to this project are welcomed and can take various forms:
-
-- **Code Enhancement**: Developers can contribute by improving the codebase, optimizing algorithms, or adding new features.
-- **Data Sharing**: Researchers and organizations can contribute by sharing additional datasets to enrich the model's training.
-- **Model Evaluation**: Data scientists are invited to evaluate the models with new metrics or in different contexts to deepen our understanding of their performance.
-- **Documentation**: Assistance in creating more comprehensive documentation, tutorials, and user guides would be valuable to help new users understand and utilize the models effectively.
-
-To contribute, please follow the guidelines outlined in our repository's `CONTRIBUTING.md` file to ensure a smooth collaboration process.
-
-# Contact and Collaboration
-
-## Invitation for Discussion
-We are open to discussions on potential collaborations, research initiatives, or any other opportunities that align with our goal of advancing solar energy forecasting. We believe that through joint efforts, we can achieve greater strides in sustainability and renewable energy management.
-
-## Contact Information for Inquiries
-For further inquiries, discussions, or proposals, please reach out to us through the following channels:
-
-- **LinkedIn**: [linkedin.com/in/solar-forecast](https://www.linkedin.com/in/solar-forecast)
-
 ---
 
 ## License
 
-This project is licensed under the Apache License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE.md](https://github.com/solaripynb/SolarEnergyForecasting/blob/main/LICENSE)https://github.com/solaripynb/SolarEnergyForecasting/blob/main/LICENSE) file for details.
