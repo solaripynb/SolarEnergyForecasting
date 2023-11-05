@@ -1,7 +1,7 @@
 # Welcome to Solar Energy Forecasting
 
 > **Note for Stakeholders and Interested Parties**:
-For advanced, real-time forecasting solutions that offer higher granularity up to 30-minute intervals and incorporate cutting-edge methodologies, please get in touch via [LinkedIn](https://www.linkedin.com/in/sergiodavidescobar). These specialized services cater to detailed operational and strategic requirements..
+For advanced, real-time forecasting solutions that offer higher granularity up to 30-minute intervals and incorporate cutting-edge methodologies, please get in touch via [LinkedIn](https://www.linkedin.com/in/sergiodavidescobar). These specialized services cater to detailed operational and strategic requirements.
 
 ---
 
