@@ -68,11 +68,50 @@ The techniques include XGBoost, RandomForestRegressor, LSTM, Prophet, SARIMA, an
 
 ## <a name="results"></a>5. Results Snapshot
 
-### 5.1 High-Level Model Performance
+### 5.1 Data-Driven Insigh
+
+
+<p align="center">
+  <a href="https://github.com/solaripynb/SolarEnergyForecasting/assets/148157132/0ca7dcb5-0223-4cb2-8338-72da22b6b0cd">
+    <img src="https://github.com/solaripynb/SolarEnergyForecasting/assets/148157132/0ca7dcb5-0223-4cb2-8338-72da22b6b0cd" width="600">
+  </a>
+</p>
+<p align="center">
+  <em>Figure 1: The January versus June solar output comparison graph distinctly showcases the substantial seasonal influence on solar energy production.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/solaripynb/SolarEnergyForecasting/assets/148157132/21470de4-b887-4a4c-b7b7-46be28df49d1">
+    <img src="https://github.com/solaripynb/SolarEnergyForecasting/assets/148157132/21470de4-b887-4a4c-b7b7-46be28df49d1" width="600">
+  </a>
+</p>
+<p align="center">
+  <em>Figure 2: The quarterly solar output variability bar chart reveals the fluctuations in solar production, highlighting the need for adaptable energy management strategies.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/solaripynb/SolarEnergyForecasting/assets/148157132/32159350-b268-431e-9add-dbcc357348bb">
+    <img src="https://github.com/solaripynb/SolarEnergyForecasting/assets/148157132/32159350-b268-431e-9add-dbcc357348bb" width="600">
+  </a>
+</p>
+<p align="center">
+  <em>Figure 3: The scatter plot with trendline demonstrates a pronounced positive correlation between sun height and solar energy output, pivotal for predictive modeling accuracy.</em>
+</p>
+
+<p align="center">
+  <a href="https://github.com/solaripynb/SolarEnergyForecasting/assets/148157132/693c68e9-19a5-4791-ad9d-f84d249a0132">
+    <img src="https://github.com/solaripynb/SolarEnergyForecasting/assets/148157132/693c68e9-19a5-4791-ad9d-f84d249a0132" width="600">
+  </a>
+</p>
+<p align="center">
+  <em>Figure 4: The hourly average solar output graph captures the predictable daily pattern of solar energy generation, essential for intra-day operational planning.</em>
+</p>
+
+### 5.2 High-Level Model Performance
 
 Models like XGBoost and Random Forest achieved R^2 values above 0.97, while the Multivariate LSTM approach also showed strong predictive ability with an R^2 of 0.9172.
 
-### 5.2 Comparative Insights
+### 5.3 Comparative Insights
 
 Machine learning models performed best, while time series models showed mixed results. Advanced regression techniques like Quantile Regression provided a different predictive perspective.
 
