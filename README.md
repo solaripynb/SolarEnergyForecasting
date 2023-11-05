@@ -115,9 +115,7 @@ Special thanks go to the team of specialized scientists at PVGIS-SARAH2, funded 
 
 ### 5.2 Contact for Further Information
 
-I am continually seeking to expand the horizons of this project and explore new partnerships that push the envelope of what's possible in solar energy forecasting. If you are interested in collaborating, contributing, or simply discussing the potential of this model and others in the energy sector, please feel free to reach out. Together, we can forge a path towards more sustainable and efficient energy solutions.
-
-For inquiries, collaborations, or further discussions, please contact:
+I am continually seeking to expand the horizons of this project and explore new partnerships that push the envelope of what's possible in solar energy forecasting. If you are interested in collaborating, contributing, or simply discussing the potential of this model and others in the energy sector, please feel free to reach out.
 
 [LinkedIn](https://www.linkedin.com/in/sergiodavidescobar)
 
