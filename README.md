@@ -45,7 +45,7 @@ This README provides an executive summary of the Solar Radiance Forecaster proje
 
 ### <a name="project-overview"></a>1.1 Project Overview
 
-The "Base Solar Energy Forecasting Model" project was conceived with the aim to develop predictive models that can forecast the output of solar farms in South Spain for the immediate hour ahead. Utilizing historical data spanning from 2012 to 2020, the project synthesizes advanced machine learning and time-series forecasting techniques to predict solar energy production with high accuracy.
+The "SolarEnergyForecasting" project was conceived with the aim to develop predictive models that can forecast the output of solar farms for the immediate hour ahead. Utilizing historical data spanning from 2012 to 2020, the project synthesizes advanced machine learning and time-series forecasting techniques to predict solar energy production with high accuracy. This initiative is specifically focused on the South Spain region, taking into account the unique meteorological patterns and solar irradiance profiles characteristic of this area to optimize prediction precision and relevance for local grid management and energy policy development.
 
 The data used in this project originates from the PVGIS-SARAH2 database and contains hourly measurements of solar radiation and output from a standardized 1 kWp solar photovoltaic (PV) system. The dataset is meticulously curated to reflect the performance of solar farms located at an elevation of 500 meters with an optimal slope of 37 degrees, taking into account system losses of 14%.
 
@@ -55,9 +55,9 @@ The project's models demonstrate robust predictive capability, with the best-per
 
 Value Proposition for Solar Grid Operators:
 
-- Increased Grid Efficiency: Accurate forecasts enable more effective balancing of supply and demand, leading to a more stable and efficient grid.
-- Economic Optimization: Predictive insights aid in reducing operational costs by optimizing energy storage and distribution, and mitigating the need for auxiliary services.
-- Scalability: The modeling framework established in this project is designed to be adaptable and scalable to different geographies and solar farm sizes.
+- **Increased Grid Efficiency:** Accurate forecasts enable more effective balancing of supply and demand, leading to a more stable and efficient grid.
+- **Economic Optimization:** Predictive insights aid in reducing operational costs by optimizing energy storage and distribution, and mitigating the need for auxiliary services.
+- **Scalability:** The modeling framework established in this project is designed to be adaptable and scalable to different geographies and solar farm sizes.
 
 The project outcomes are poised to assist solar grid operators in planning and real-time decision-making, thereby contributing to the increased adoption of sustainable energy sources and supporting the transition towards a more resilient and environmentally friendly power infrastructure.
 
